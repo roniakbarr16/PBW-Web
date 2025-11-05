@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 4 Pertemuan 7</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+      }
+
+      body {
+        background-color: gray;
+        color: #000000;
+      }
+
+      .wrapper {
+        width: 90em;
+        margin: auto;
+        position: sticky;
+      }
+
+      .logo a {
+        font-size: 50px;
+        font-weight: 800;
+        float: left;
+        color: #364f6b;
+        text-decoration: none;
+      }
+
+      .menu {
+        float: right;
+      }
+
+      nav {
+        width: 100%;
+        display: flex;
+        line-height: 80px;
+        position: sticky;
+        top: 0;
+        background: #ffffff;
+        z-index: 1;
+        box-shadow: 0px 0px 15px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      nav ul li {
+        float: left;
+      }
+
+      nav ul li a {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        padding: 0px 16px 0px 16px;
+        text-decoration: none;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      a.tbl-biru {
+        background: #1055c9;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      a.tbl-biru:hover {
+        background: #6e8cfb;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+
+      section {
+        margin: auto;
+        display: flex;
+        margin-bottom: 50px;
+        padding: 20px;
+      }
+
+      nav ul li button {
+        margin-left: 10px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        background-color: #1055c9;
+        color: white;
+      }
+
+      nav ul li button:hover {
+        background-color: #6e8cfb;
+        transition: 0.3s;
+      }
+
+      .dark-mode {
+        background-color: #1a1a1a;
+        color: #f5f5f5;
+      }
+
+      .dark-mode nav {
+        background-color: rgba(40, 40, 40, 0.9);
+        box-shadow: 0px 0px 10px #000;
+      }
+
+      .dark-mode a {
+        color: #f5f5f5;
+      }
+
+      .dark-mode .tbl-biru {
+        background: #444;
+      }
+
+      .dark-mode .tbl-biru:hover {
+        background: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a id="home"></a>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a
+            href="https://www.instagram.com/roniakbarr16?igsh=eXV3OXVzbWtybW11&utm_source=qr"
+            target="_blank"
+            >Roni Akbar</a
+          >
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><button id="tblgelap">Dark</button></li>
+            <li><button id="tblterang">Light</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      const darkBtn = document.getElementById("tblgelap");
+      const lightBtn = document.getElementById("tblterang");
+
+      darkBtn.addEventListener("click", () => {
+        document.body.classList.add("dark-mode");
+      });
+
+      lightBtn.addEventListener("click", () => {
+        document.body.classList.remove("dark-mode");
+      });
+    </script>
+  </body>
+</html>
