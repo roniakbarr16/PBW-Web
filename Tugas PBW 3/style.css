@@ -1,0 +1,75 @@
+header {
+  background-color: #e97432;
+}
+
+.header {
+  background-color: #e97432;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+h1 {
+  text-align: center;
+}
+
+.header-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.judul {
+  font-size: 18px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  float: right;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  height: 300px;
+}
+
+section {
+  text-align: justify;
+}
+
+#kiri {
+  width: 20%;
+  float: left;
+}
+#tengah {
+  padding-left: 20%;
+  width: 20%;
+  float: left;
+}
+#kanan {
+  width: 20%;
+  float: right;
+}
+.artikel {
+  padding: 20%;
+}
+
+footer {
+  text-align: center;
+  background-color: #e97432;
+  clear: both;
+  padding: 20px;
+}
