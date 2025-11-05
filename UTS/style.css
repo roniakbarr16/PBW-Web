@@ -1,0 +1,244 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins";
+  background-color: #f8f9fa;
+}
+
+.wrapper {
+  width: 90em;
+  margin: auto;
+  position: sticky
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: 'poppins';
+  color: #364f6b;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  background-color: rgba(225, 225, 225, 0.7); 
+  box-shadow: 0px 0px 15px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+a.tbl-biru {
+  background: #1055c9;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-biru:hover {
+  background: #6e8cfb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.gambar {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.img-almet {
+  width: 235px;
+  border-radius: 2rem;
+  box-shadow: 0 0 20px;
+}
+
+.home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home p {
+  padding-top: 10px;
+}
+
+.home h2 {
+  padding-top: 10px;
+}
+
+.home .tombol {
+  padding-top: 30px;
+}
+
+a.tbl-readmore {
+  background: #1055c9;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.tbl-readmore:hover {
+  background: #6e8cfb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.gambar-roni {
+  float: right;
+  margin-right: 100px;
+}
+
+.img-roni {
+  width: 230px;
+  border-radius: 2em;
+  box-shadow: 0 0 20px;
+}
+
+.about-bawaan {
+  margin-top: 100px;
+}
+
+.about-bawaan h2 {
+  padding-bottom: 10px;
+  float: left;
+  margin-left: 100px;
+}
+
+.about-bawaan p {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 420px;
+}
+
+.about-me {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.paragraf-me {
+  font-size: 17px;
+  text-align: justify;
+}
+
+.contact-atas {
+  margin-top: 250px;
+  text-align: center;
+}
+
+.heading-contact {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.heading-contact {
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  width: 500px;
+  max-width: 500px;
+  margin: 0 auto 100px auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: "poppins";
+  transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #1055c9;
+  box-shadow: 0 0 6px rgba(16, 85, 201, 0.3);
+  outline: none;
+}
+
+button {
+  width: 100px;
+  background: #1055c9;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  background-color: #6e8cfb;
+  transition: 0.3s;
+}
+
+#copyright {
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+}
