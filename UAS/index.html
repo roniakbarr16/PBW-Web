@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAS-WebBiography</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navabar -->
+    <a id="home"></a>
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <a
+            href="https://www.instagram.com/roniakbarr16?igsh=eXV3OXVzbWtybW11&utm_source=qr"
+            target="_blank"
+            >Roni Akbar</a
+          >
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact" class="tbl-biru">Contact</a></li>
+            <li><button class="nightmode" id="toggleTheme">🌙</button></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <div class="gambar">
+      <img
+        class="img-almet"
+        src="./img/20240903_211229_0000.jpg"
+        alt="Foto Roni"
+      />
+    </div>
+    <div class="home">
+      <p class="pembuka">Halo, Saya Roni</p>
+      <h2>Informatics Engineering Student</h2>
+      <p>Mahasiswa Teknik Informatika, Universitas Dian Nuswantoro</p>
+      <p class="tombol">
+        <a href="#aboutme" class="tbl-readmore" target="_self">Read More</a>
+      </p>
+    </div>
+    <!-- About Me -->
+    <div class="about-bawaan">
+      <div id="aboutme">
+        <h2 class="about-me">About Me</h2>
+      </div>
+      <div class="gambar-roni">
+        <img
+          class="img-roni"
+          src="./img/WhatsApp Image 2024-10-24 at 22.00.17_15bc63fd.jpg"
+          alt=""
+        />
+      </div>
+      <div class="deskripsi-roni">
+        <p class="paragraf-me">
+          Nama saya Roni Akbar Rahmawan, lahir di Kudus pada 16 Januari 2006.
+          Saya berasal dari Demak dan saat ini menempuh studi sebagai mahasiswa
+          di Universitas Dian Nuswantoro (Udinus). Saya memiliki ketertarikan
+          dalam dunia teknologi informasi dan bersemangat untuk mengeksplorasi
+          berbagai hal baru di bidang ini. Di luar kegiatan akademik, saya juga
+          senang berinteraksi dengan orang-orang dan belajar dari pengalaman
+          mereka. Dan saya juga mempunyai pengalaman berorganisasi selama SMA.
+          Saya percaya bahwa setiap langkah dalam perjalanan hidup ini membawa
+          pelajaran berharga yang dapat membentuk masa depan saya.
+        </p>
+      </div>
+    </div>
+    <!-- Projects -->
+     <div id="projects" class="project-atas">
+       <h2 class="project-title">Projects</h2>
+      </div>
+
+      <div class="projects-content">
+        <a
+          href="https://ishowspeedbiography.netlify.app/"
+          target="_blank"
+          class="project-card"
+        >
+          <img src="img/Screenshot 2024-10-25 142716.png" alt="Project 1" />
+          <div class="project-content">
+            <h3>Project 1</h3>
+            <p>
+              Merupakan Project pertama saya dalam membuat tampilan website, Yaitu Web Biography IshowSpeed.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="https://roniakbr.netlify.app/"
+          target="_blank"
+          class="project-card"
+        >
+          <img src="img/Screenshot 2024-10-25 142124.png" alt="Project 2" />
+          <div class="project-content">
+            <h3>Project 2</h3>
+            <p>
+              Merupakan Project kedua saya, Yaitu website form pendaftaran .
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="https://bakron.netlify.app/"
+          target="_blank"
+          class="project-card"
+        >
+          <img src="img/image.png" alt="Project 3" />
+          <div class="project-content">
+            <h3>Project 3</h3>
+            <p>
+              Merupakan Project Ketiga saya, Yaitu membuat website seputar artikel dropdown dan card user Udinus waktu UAS Dasar Komputasi.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="http://localhost/UAS-WebBiography/login-admin/login.php"
+          target="_self"
+          class="project-card"
+        >
+          <img src="img/WhatsApp Image 2026-01-08 at 13.04.00_84ae079f.jpg" alt="Project 4" />
+          <div class="project-content">
+            <h3>Project 4</h3>
+            <p>
+              Merupakan project keempat saya berupa Web Form PHP yang memiliki fitur login, logout, serta pengelolaan data user (tambah, edit, hapus). Project ini menggunakan PHP, MySQL, dan Bootstrap 5 untuk tampilan antarmuka.
+            </p>
+          </div>
+        </a>
+      </div>
+        
+
+    <!-- Contact -->
+    <div id="contact" class="contact-atas">
+      <h2 class="heading-contact">Contact</h2>
+    </div>
+
+    <div class="contact-form">
+      <form id="contactForm">
+        <label for="name">Nama Lengkap</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="silahkan isi nama lengkap anda"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Silahkan isi email anda"
+          required
+        />
+
+        <label for="message">Pesan</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Kritik / Saran"
+          required
+        ></textarea>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+    <div id="copyright">
+      <div class="wrapper">
+        &copy; 2025. <b>Roni Akbar Rahmawan</b> All Rights Reserved.
+      </div>
+    </div>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var nama = document.getElementById("name").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var pesan = document.getElementById("message").value.trim();
+
+    if (nama === "" || email === "" || pesan === "") {
+      alert("⚠️ Harap isi semua kolom sebelum mengirim!");
+      return;
+    }
+
+    alert("✅ Data berhasil dikirim!\nNama: " + nama + "\nEmail: " + email + "\nPesan: " + pesan);
+    this.reset();
+  });
+</script>
+<script>
+  const toggleTheme = document.getElementById("toggleTheme");
+  const body = document.body;
+
+  if (localStorage.getItem("theme") === "dark") {
+    body.classList.add("dark");
+    toggleTheme.textContent = "☀️";
+  }
+
+  toggleTheme.addEventListener("click", () => {
+    body.classList.toggle("dark");
+
+    if (body.classList.contains("dark")) {
+      localStorage.setItem("theme", "dark");
+      toggleTheme.textContent = "☀️";
+    } else {
+      localStorage.setItem("theme", "light");
+      toggleTheme.textContent = "🌙";
+    }
+  });
+</script>
+
+</body>
+</html>
+
+  </body>
+  
+</html>
